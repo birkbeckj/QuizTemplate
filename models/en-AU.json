@@ -1,0 +1,698 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "distillery quiz",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.YesIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NoIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AnswerIntent",
+                  "slots": [
+                      {
+                          "name": "distillery",
+                          "type": "distillery"
+                      }
+                  ],
+                  "samples": [
+                      "is it {distillery} distillery",
+                      "it's {distillery} distillery",
+                      "that's the {distillery} distillery",
+                      "{distillery} distillery",
+                      "it's most likely {distillery}",
+                      "it's probably {distillery}",
+                      "I would say {distillery}",
+                      "I'd say it's {distillery}",
+                      "I'm going to go for {distillery}",
+                      "I'll say {distillery}",
+                      "i think it's {distillery}",
+                      "it's {distillery}",
+                      "That's {distillery}",
+                      "That is {distillery}",
+                      "I'll go for {distillery}",
+                      "I'm going for {distillery}",
+                      "i am going to say {distillery}",
+                      "my guess is {distillery}",
+                      "i think it is {distillery}",
+                      "is it {distillery}",
+                      "what is {distillery}",
+                      "{distillery}"
+                  ]
+              },
+              {
+                  "name": "StartNewGameIntent",
+                  "slots": [],
+                  "samples": [
+                      "Start a new game"
+                  ]
+              },
+              {
+                  "name": "PassIntent",
+                  "slots": [],
+                  "samples": [
+                      "pass"
+                  ]
+              },
+              {
+                  "name": "HardQuestionIntent",
+                  "slots": [],
+                  "samples": [
+                      "a difficult question",
+                      "hard question",
+                      "a hard question",
+                      "Difficult",
+                      "Hard"
+                  ]
+              },
+              {
+                  "name": "EasyQuestionIntent",
+                  "slots": [],
+                  "samples": [
+                      "a simple one",
+                      "a basic one",
+                      "i want an easy question",
+                      "An easy one",
+                      "Easy"
+                  ]
+              },
+              {
+                  "name": "AMAZON.RepeatIntent",
+                  "samples": []
+              }
+          ],
+          "types": [
+              {
+                  "name": "distillery",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "Aberargie"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Aberfeldy"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Aberlour"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Abhainn Dearg"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Ailsa Bay"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Annandale"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Arbikie"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Ardbeg"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Ardmore"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Ardnahoe"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Ardnamurchan"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Arran",
+                              "synonyms": [
+                                  "Isle of Arran"
+                              ]
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Auchentoshan"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Auchroisk",
+                              "synonyms": [
+                                  "O thrust"
+                              ]
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Aultmore"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Balblair"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Ballindalloch"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Balmenach"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Balvenie"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Ben Nevis"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "BenRiach"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Benrinnes"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Benromach"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Bladnoch"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Blair Athol"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Bowmore"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Brackla"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Braeval"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Bruichladdich"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Bunnahabhain"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Caol Ila"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Cardhu"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Clynelish"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Cragganmore"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Craigellachie"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Daftmill"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Dailuaine"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Dalmore"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Dalmunach"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Dalwhinnie"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Deanston"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Dufftown"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Eden Mill"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Edradour"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Fettercairn"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glen Elgin"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glen Garioch",
+                              "synonyms": [
+                                  "Glen Geery"
+                              ]
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glen Grant"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glen Keith"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glen Moray"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glen Ord"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glen Scotia"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glen Spey"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glenallachie",
+                              "synonyms": [
+                                  "Glanalacky"
+                              ]
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glenburgie"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glencadam"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glendronach"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glendullan"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glenfarclas"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glenfiddich"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glenglassaugh"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glengoyne"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glengyle"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glenkinchie"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glenlivet"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glenlossie"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glenmorangie"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glenrothes"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glentauchers"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Glenturret"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "GlenWyvis"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Highland Park"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Inchdairnie"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Inchgower"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Jura",
+                              "synonyms": [
+                                  "Isle of Jura"
+                              ]
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Kilchoman"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Kingsbarns"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Kininvie"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Knockando"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Knockdhu"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Lagavulin"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Laphroaig"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Linkwood"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Loch Lomond"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Lochnagar"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "LoneWolf"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Longmorn"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Macduff"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Mannochmore"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Miltonduff"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Mortlach"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Oban"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Old Pulteney",
+                              "synonyms": [
+                                  "Pulteney"
+                              ]
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Roseisle"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Royal Brackla",
+                              "synonyms": [
+                                  "Brackla"
+                              ]
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Scapa"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Speyburn"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Speyside"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Springbank"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Strathearn"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Strathisla"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Strathmill"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Talisker"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Tamdhu"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Tamnavulin"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Teaninich"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Macallan",
+                              "synonyms": [
+                                  "The Macallan"
+                              ]
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Tobermory"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Tomatin"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Tomintoul"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Tormore"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Tullibardine"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "Wolfburn"
+                          }
+                      }
+                  ]
+              }
+          ]
+      }
+  }
+}

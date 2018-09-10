@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Distillery Quiz"
+        },
+        "en-AU": {
+          "name": "Distillery Quiz"
+        },
+        "en-IN": {
+          "name": "Distillery Quiz"
+        },
+        "en-CA": {
+          "name": "Distillery Quiz"
+        },
+        "en-GB": {
+          "name": "Distillery Quiz"
+        }
+      }
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/us-east-1_Distillery_Quiz"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

@@ -1,0 +1,4 @@
+*lambda/*/node_modules/*
+*.zip
+.ask/*
+*package-lock.json
