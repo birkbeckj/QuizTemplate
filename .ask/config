@@ -1,0 +1,52 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.8e4f6194-670d-48fd-beec-b15ccdbeb42b",
+      "was_cloned": false,
+      "resources": {
+        "manifest": {
+          "eTag": "3d74e2aaebaffd7d09d4da8e157dbc06"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "2155ee778be14a3ddd1520d9e1b11ac8"
+          },
+          "en-AU": {
+            "eTag": "2155ee778be14a3ddd1520d9e1b11ac8"
+          },
+          "en-GB": {
+            "eTag": "2155ee778be14a3ddd1520d9e1b11ac8"
+          },
+          "en-IN": {
+            "eTag": "2155ee778be14a3ddd1520d9e1b11ac8"
+          },
+          "en-CA": {
+            "eTag": "2155ee778be14a3ddd1520d9e1b11ac8"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:130943878530:function:Distillery_Quiz",
+            "awsRegion": "us-east-1",
+            "functionName": "arn:aws:lambda:us-east-1:130943878530:function:Distillery_Quiz",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "9b3cbc16-3a9d-437c-a516-c8fc7d448e51"
+          }
+        ]
+      },
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:130943878530:function:Distillery_Quiz"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
